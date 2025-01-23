@@ -28,15 +28,15 @@ int main(int argc, const char * argv[]) {
     find_all_Hamiltonian_path(adj, res);
     compute_val(adj, res);
     cout<<endl<<"------------------------------------------------------"<<endl;
-//    cout<<"Dp ran"<<endl;
-//    cout<<tsp(adj)<<endl;
-//    cout<<"------------------------------------------------------"<<endl;
-//    cout<< "Mst base Ran"<<endl;
-//    Mst_base(adj);
-//    cout<<"------------------------------------------------------"<<endl;
-//    cout<< "greedy ran"<<endl;
-//    tspApproximationMST(adj);
-//    cout<<"------------------------------------------------------"<<endl;
+    cout<<"Dp ran"<<endl;
+    cout<<tsp(adj)<<endl;
+    cout<<"------------------------------------------------------"<<endl;
+    cout<< "Mst base Ran"<<endl;
+    Mst_base(adj);
+    cout<<"------------------------------------------------------"<<endl;
+    cout<< "greedy ran"<<endl;
+    tspApproximationMST(adj);
+    cout<<"------------------------------------------------------"<<endl;
     
 }
 
